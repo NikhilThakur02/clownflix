@@ -1,0 +1,273 @@
+/* Global Styles and Header (Same as provided before) */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+a {
+    color: #ff4747;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Buttons */
+.btn-primary, .btn-secondary {
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #ff4747;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #333;
+    color: #ff4747;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    opacity: 0.9;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #202020;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation ul li {
+    list-style: none;
+}
+
+.navigation ul li a:hover {
+    color: #ff4747;
+}
+
+/* Hero Section for Home Page */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.hero .btn-primary {
+    font-size: 18px;
+    padding: 15px 40px;
+}
+
+/* Movie Grid */
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.movie-card {
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.movie-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.movie-card p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Subscription Section */
+.subscription-plans {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.plan-card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+}
+
+.plan-card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.plan-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.plan-card .price {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.plan-card .btn-primary {
+    font-size: 16px;
+    padding: 12px 30px;
+}
+
+/* Footer */
+.footer {
+    background-color: #202020;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Hero Section for Featured Series */
+.hero-series {
+    background: url('backround\ image\ 2.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-series h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-series h1 span {
+    color: #ff4747;
+}
+
+.hero-series p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-series .btn-primary {
+    padding: 12px 30px;
+    font-size: 16px;
+}
+
+/* Series Grid */
+.series-grid-section {
+    margin-top: 40px;
+}
+
+.series-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.series-card {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.series-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.series-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #ff4747;
+}
+
+.series-card p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* //////////////////////////////////////////////////////////////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+.logo {
+    font-family: 'Fugaz One', cursive;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.clown {
+    color: #FF6347; /* Tomato red for "Clown" */
+    text-shadow: 2px 2px 8px rgba(255, 99, 71, 0.5);
+}
+
+.flix {
+    color: #e50914; /* Netflix red for "flix" */
+    text-shadow: 2px 2px 8px rgba(229, 9, 20, 0.5);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////// */

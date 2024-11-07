@@ -1,0 +1,205 @@
+/* General Styling (already covered previously) */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #141414;
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #181818;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover {
+    color: #ff4747;
+}
+
+/* Subscription Plans Section */
+.subscription-plans {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #202020;
+    text-align: center;
+}
+
+.plan-card {
+    background-color: #282828;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.plan-card h3 {
+    font-size: 24px;
+    color: #ff4747;
+    margin-bottom: 20px;
+}
+
+.plan-card p {
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 10px;
+}
+
+.plan-card .price {
+    font-size: 28px;
+    color: #ffffff;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.plan-card .btn-primary {
+    background-color: #ff4747;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.plan-card .btn-primary:hover {
+    background-color: #ff6a6a;
+}
+
+.plan-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+* Footer */
+.footer {
+    padding: 40px 20px;
+    background-color: #141414;
+    text-align: center;
+}
+
+.footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .footer-links ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer .footer-links ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer .footer-links ul li a:hover {
+    color: #ff4747;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer .social-icons img {
+    width: 30px;
+}
+
+.footer p {
+    color: #bbb;
+    margin-top: 20px;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+.logo {
+    font-family: 'Fugaz One', cursive;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.clown {
+    color: #FF6347; /* Tomato red for "Clown" */
+    text-shadow: 2px 2px 8px rgba(255, 99, 71, 0.5);
+}
+
+.flix {
+    color: #e50914; /* Netflix red for "flix" */
+    text-shadow: 2px 2px 8px rgba(229, 9, 20, 0.5);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* Footer */
+.footer {
+    padding: 40px 20px;
+    background-color: #141414;
+    text-align: center;
+}
+
+.footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .footer-links ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer .footer-links ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer .footer-links ul li a:hover {
+    color: #ff4747;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer .social-icons img {
+    width: 30px;
+}
+
+.footer p {
+    color: #bbb;
+    margin-top: 20px;
+}
